@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7EC121C22D3117D0081463C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EC121B22D3117D0081463C /* AppDelegate.m */; };
+		F7EC122422D3117F0081463C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7EC122322D3117F0081463C /* Assets.xcassets */; };
+		F7EC122722D3117F0081463C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7EC122522D3117F0081463C /* LaunchScreen.storyboard */; };
+		F7EC122A22D3117F0081463C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EC122922D3117F0081463C /* main.m */; };
+		F7EC123322D311FA0081463C /* KNRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EC123222D311FA0081463C /* KNRouter.m */; };
+		F7EC123622D31A890081463C /* KNBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EC123522D31A890081463C /* KNBaseViewController.m */; };
+		F7EC123E22D31D960081463C /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EC123C22D31D960081463C /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F7EC124122D31DB40081463C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7EC124022D31DB40081463C /* Foundation.framework */; };
+		F7EC124322D31DC20081463C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7EC124222D31DC20081463C /* CoreFoundation.framework */; };
+		F7EC124522D325960081463C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7EC124422D325960081463C /* UIKit.framework */; };
+		F7EC124822D326CC0081463C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EC124722D326CC0081463C /* HomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7EC121722D3117D0081463C /* KNRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7EC121A22D3117D0081463C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7EC121B22D3117D0081463C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7EC122322D3117F0081463C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7EC122622D3117F0081463C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7EC122822D3117F0081463C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7EC122922D3117F0081463C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7EC123122D311FA0081463C /* KNRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNRouter.h; sourceTree = "<group>"; };
+		F7EC123222D311FA0081463C /* KNRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNRouter.m; sourceTree = "<group>"; };
+		F7EC123422D31A890081463C /* KNBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNBaseViewController.h; sourceTree = "<group>"; };
+		F7EC123522D31A890081463C /* KNBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNBaseViewController.m; sourceTree = "<group>"; };
+		F7EC123C22D31D960081463C /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		F7EC123D22D31D960081463C /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		F7EC124022D31DB40081463C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7EC124222D31DC20081463C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		F7EC124422D325960081463C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7EC124622D326CC0081463C /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F7EC124722D326CC0081463C /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7EC121422D3117D0081463C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7EC124522D325960081463C /* UIKit.framework in Frameworks */,
+				F7EC124322D31DC20081463C /* CoreFoundation.framework in Frameworks */,
+				F7EC124122D31DB40081463C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7EC120E22D3117D0081463C = {
+			isa = PBXGroup;
+			children = (
+				F7EC121922D3117D0081463C /* KNRouterDemo */,
+				F7EC121822D3117D0081463C /* Products */,
+				F7EC123F22D31DB30081463C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7EC121822D3117D0081463C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7EC121722D3117D0081463C /* KNRouterDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7EC121922D3117D0081463C /* KNRouterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F7EC123B22D31D960081463C /* Json */,
+				F7EC123022D311DE0081463C /* KNRouter */,
+				F7EC121A22D3117D0081463C /* AppDelegate.h */,
+				F7EC121B22D3117D0081463C /* AppDelegate.m */,
+				F7EC122322D3117F0081463C /* Assets.xcassets */,
+				F7EC122522D3117F0081463C /* LaunchScreen.storyboard */,
+				F7EC122822D3117F0081463C /* Info.plist */,
+				F7EC122922D3117F0081463C /* main.m */,
+				F7EC123422D31A890081463C /* KNBaseViewController.h */,
+				F7EC123522D31A890081463C /* KNBaseViewController.m */,
+				F7EC124622D326CC0081463C /* HomeViewController.h */,
+				F7EC124722D326CC0081463C /* HomeViewController.m */,
+			);
+			path = KNRouterDemo;
+			sourceTree = "<group>";
+		};
+		F7EC123022D311DE0081463C /* KNRouter */ = {
+			isa = PBXGroup;
+			children = (
+				F7EC123122D311FA0081463C /* KNRouter.h */,
+				F7EC123222D311FA0081463C /* KNRouter.m */,
+			);
+			path = KNRouter;
+			sourceTree = "<group>";
+		};
+		F7EC123B22D31D960081463C /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				F7EC123D22D31D960081463C /* JSONKit.h */,
+				F7EC123C22D31D960081463C /* JSONKit.m */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		F7EC123F22D31DB30081463C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7EC124422D325960081463C /* UIKit.framework */,
+				F7EC124222D31DC20081463C /* CoreFoundation.framework */,
+				F7EC124022D31DB40081463C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7EC121622D3117D0081463C /* KNRouterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7EC122D22D3117F0081463C /* Build configuration list for PBXNativeTarget "KNRouterDemo" */;
+			buildPhases = (
+				F7EC121322D3117D0081463C /* Sources */,
+				F7EC121422D3117D0081463C /* Frameworks */,
+				F7EC121522D3117D0081463C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KNRouterDemo;
+			productName = KNRouterDemo;
+			productReference = F7EC121722D3117D0081463C /* KNRouterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7EC120F22D3117D0081463C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = ken;
+				TargetAttributes = {
+					F7EC121622D3117D0081463C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F7EC121222D3117D0081463C /* Build configuration list for PBXProject "KNRouterDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7EC120E22D3117D0081463C;
+			productRefGroup = F7EC121822D3117D0081463C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7EC121622D3117D0081463C /* KNRouterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7EC121522D3117D0081463C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7EC122722D3117F0081463C /* LaunchScreen.storyboard in Resources */,
+				F7EC122422D3117F0081463C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7EC121322D3117D0081463C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7EC122A22D3117F0081463C /* main.m in Sources */,
+				F7EC123E22D31D960081463C /* JSONKit.m in Sources */,
+				F7EC121C22D3117D0081463C /* AppDelegate.m in Sources */,
+				F7EC123622D31A890081463C /* KNBaseViewController.m in Sources */,
+				F7EC124822D326CC0081463C /* HomeViewController.m in Sources */,
+				F7EC123322D311FA0081463C /* KNRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7EC122522D3117F0081463C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7EC122622D3117F0081463C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7EC122B22D3117F0081463C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7EC122C22D3117F0081463C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7EC122E22D3117F0081463C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KNRouterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kennith.KNRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7EC122F22D3117F0081463C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KNRouterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kennith.KNRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7EC121222D3117D0081463C /* Build configuration list for PBXProject "KNRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7EC122B22D3117F0081463C /* Debug */,
+				F7EC122C22D3117F0081463C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7EC122D22D3117F0081463C /* Build configuration list for PBXNativeTarget "KNRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7EC122E22D3117F0081463C /* Debug */,
+				F7EC122F22D3117F0081463C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7EC120F22D3117D0081463C /* Project object */;
+}
